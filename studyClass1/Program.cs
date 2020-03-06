@@ -18,7 +18,7 @@ namespace studyClass1
             Func<int,int,int,int> pp = (x,y,z)=> x + y+z;
             Console.WriteLine(pp(3, 4,1));
 
-            Func<int> kk = () => 123;
+            Func<int> kk = () => 456;
             Console.WriteLine(kk());
 
 
